@@ -1,0 +1,159 @@
+/************************TAG SELECTORS***************************************/
+html, body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 1rem;
+}
+
+a {
+  color: #ffcb74;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f4f6ff;
+}
+
+h1 {
+  color: #ffcb74;
+  font-family: 'Parisienne', cursive;
+  font-size: 5.625rem;
+  margin: 0 auto;
+  padding-top: 25vh;
+}
+
+h2 {
+  color: #ffcb74;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #ea907a;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+hr {
+  border-width: 10px 0 0 0;
+  border-style: dotted;
+  color: #ea907a;
+  margin: 100px auto 100px auto;
+  width: 5%;
+}
+
+/************************CLASS SELECTORS***************************************/
+.top-container {
+  background-color: #ea907a;
+  position: relative;
+  height: 100vh;
+  min-height: 575px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.mountain {
+  position: absolute;
+  max-width: 95vw;
+  bottom: 0;
+  display: block;
+  margin: 0 auto;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.middle-container {
+  padding: 50px 0;
+  background-color: #4f8a8b;
+}
+
+.profile {
+  width: 80%;
+  margin: 100px auto;
+  line-height: 2;
+}
+
+.round {
+  border-radius: 100%;
+}
+
+.skill-row {
+  width: 80%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.nuclear-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.monitor-img {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-container {
+  background-color: #ea907a;
+  color: #ffcb74;
+  padding: 50px;
+}
+
+.contact-me {
+  width: 80%;
+  margin: 100px auto 0 auto;
+  line-height: 2;
+}
+
+.footer-link {
+  padding: 20px;
+}
+
+.button {
+  background-color: #ea907a;
+  border: none;
+  color: #f4f6ff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 40px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button:hover {
+  background: #FFCB74;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.end {
+  margin-bottom: 0;
+  font-size: 0.75rem;
+}
+
+/*
+Color palette from:
+https://colorhunt.co/palette/191957
+*/
